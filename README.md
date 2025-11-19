@@ -84,7 +84,7 @@ Main class for Motor Carrier control.
 
 ```python
 mc = MotorCarrier(i2c=None, scl=12, sda=11,
-                  m3_pins=(2, 3), m4_pins=(4, 4))
+                  m3_pins=(2, 3), m4_pins=(5, 4))
 ```
 
 **Parameters:**
