@@ -83,14 +83,14 @@ voltage = mc.battery.get_filtered()
 Main class for Motor Carrier control.
 
 ```python
-mc = MotorCarrier(i2c=None, scl=22, sda=21,
-                  m3_pins=(25, 26), m4_pins=(27, 14))
+mc = MotorCarrier(i2c=None, scl=12, sda=11,
+                  m3_pins=(2, 3), m4_pins=(4, 4))
 ```
 
 **Parameters:**
 - `i2c`: Existing I2C object (optional)
-- `scl`: I2C SCL pin (default 22)
-- `sda`: I2C SDA pin (default 21)
+- `scl`: I2C SCL pin (default 12)
+- `sda`: I2C SDA pin (default 11)
 - `m3_pins`: Tuple of (pin_a, pin_b) for M3 motor
 - `m4_pins`: Tuple of (pin_a, pin_b) for M4 motor
 
