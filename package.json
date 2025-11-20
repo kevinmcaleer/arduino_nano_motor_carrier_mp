@@ -3,6 +3,7 @@
     ["motor_carrier/__init__.py", "github:kevinmcaleer/arduino_nano_motor_carrier_mp/motor_carrier/__init__.py"],
     ["motor_carrier/battery.py", "github:kevinmcaleer/arduino_nano_motor_carrier_mp/motor_carrier/battery.py"],
     ["motor_carrier/bno055.py", "github:kevinmcaleer/arduino_nano_motor_carrier_mp/motor_carrier/bno055.py"],
+    ["motor_carrier/common.py", "github:kevinmcaleer/arduino_nano_motor_carrier_mp/motor_carrier/common.py"],
     ["motor_carrier/controller.py", "github:kevinmcaleer/arduino_nano_motor_carrier_mp/motor_carrier/controller.py"],
     ["motor_carrier/dc_motor.py", "github:kevinmcaleer/arduino_nano_motor_carrier_mp/motor_carrier/dc_motor.py"],
     ["motor_carrier/encoder.py", "github:kevinmcaleer/arduino_nano_motor_carrier_mp/motor_carrier/encoder.py"],
